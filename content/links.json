@@ -1,0 +1,26 @@
+{
+  "nav_links": [
+    {
+      "title": "صفحه اصلی",
+      "path": "/"
+    },
+    {
+      "title": "گالری",
+      "path": "/gallery",
+      "sub_links": [
+        {
+          "title": "عکاسی پرتره",
+          "path": "/gallery/portrait"
+        },
+        {
+          "title": "عکاسی طبیعت",
+          "path": "/gallery/nature"
+        }
+      ]
+    },
+    {
+      "title": "درباره ما",
+      "path": "/about"
+    }
+  ]
+}
