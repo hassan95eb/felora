@@ -1,6 +1,6 @@
 <template>
   <header class="w-full h-[70px] md:h-[110px] bg-black-200">
-    <div class="flex h-full py-2 justify-between">
+    <div class="flex h-full py-2 justify-between items-center">
       <div class="flex-1 h-full">
         <NuxtLink to="/" class="h-full">
           <NuxtImg
@@ -13,7 +13,10 @@
       <div class="flex-6">
         <div class="mx-auto">
           <ul class="flex">
-            <li v-for="nav_link in navigationData.nav_links" class="text-white">
+            <li
+              v-for="nav_link in navigationData.nav_links"
+              class="text-white text-lg"
+            >
               <NuxtLink :to="nav_link.path" :key="nav_link.path">
                 {{ nav_link.title }}
               </NuxtLink>
