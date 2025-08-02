@@ -1,26 +1,38 @@
 {
   "nav_links": [
     {
-      "title": "صفحه اصلی",
+      "title": "فلورا",
       "path": "/"
     },
     {
-      "title": "گالری",
-      "path": "/gallery",
+      "title": "از شکوفه تا فلورا",
+      "path": "/shokoufe-to-felora"
+    },
+    {
+      "title": "نمونه کارها ما",
+      "path": "/our-project",
       "sub_links": [
         {
           "title": "عکاسی پرتره",
-          "path": "/gallery/portrait"
+          "path": "/our-project/portrait"
         },
         {
           "title": "عکاسی طبیعت",
-          "path": "/gallery/nature"
+          "path": "/our-project/nature"
+        },
+        {
+          "title": "عکاسی محصول",
+          "path": "/our-project/product"
+        },
+        {
+          "title": "عکاسی کافه رستوران",
+          "path": "/our-project/restaurant"
         }
       ]
     },
     {
       "title": "درباره ما",
-      "path": "/about-us"
+      "path": "/contact-us"
     }
   ]
 }

@@ -23,9 +23,10 @@ A portfolio photography website built with Nuxt.js. This project showcases stunn
 
 3. **Using the Composable:**  
    To access navigation links in a component, import and call the `useNavigation` composable:
+
    ```js
-   import { useNavigation } from '~/composables/useNavigation'
-   const navigationData = await useNavigation()
+   import { useNavigation } from "~/composables/useNavigation";
+   const navigationData = await useNavigation();
    ```
 
 4. **Rendering Navigation:**  
