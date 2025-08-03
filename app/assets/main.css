@@ -3,6 +3,7 @@
 @theme {
   --color-black-900: #000;
   --color-feloratext: #d6a096;
+  --color-headerbg: #3e3e3e3d;
 }
 @font-face {
   font-family: "Vazirmatn";
